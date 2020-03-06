@@ -21,6 +21,20 @@ This repository is created to share the how the COVID19 Awareness was created an
 - Trainings (https://www.who.int/emergencies/diseases/novel-coronavirus-2019/training/online-training)
 - Videos (https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/videos)
 
+## Scientific Publishers
+- **Lancet** : https://www.thelancet.com/coronavirus 
+- **Nature** : https://www.springernature.com/gp/researchers/campaigns/coronavirus?fbclid=IwAR1-O11y5cZzkxP2P28AsP-uIMz5NoYH0IL6g3IF99viApVrKBRBw-rI61Y
+- **Elsevier** : https://www.elsevier.com/connect/coronavirus-information-center
+- **New England Journal of Medicine** : https://www.elsevier.com/connect/coronavirus-information-center
 
+## Open Data access
+- **China National Center for Bioinformatics** 
+    https://www.elsevier.com/connect/coronavirus-information-center 
+    You can download genomic sequeces, use online tools (AI) and publications 
+
+- **Kaggle COVID-19 Dataset from Korea**
+    https://www.kaggle.com/kimjihoo/coronavirusdataset 
+    Live updated datasets on corona cases from korea
+ 
 
 
