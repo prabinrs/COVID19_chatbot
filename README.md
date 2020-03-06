@@ -13,4 +13,14 @@ This repository is created to share the how the COVID19 Awareness was created an
 
 [Google Drive Status Reports] (https://drive.google.com/drive/folders/1QhLMbT76t6Zu1sFy5qlB5aoDbHVAcnHx)
 
+## International Organizations 
+**World Health Organization** 
+
+- Rolling updates (https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen)
+- Situation dashboard (https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125c)
+- Trainings (https://www.who.int/emergencies/diseases/novel-coronavirus-2019/training/online-training)
+- Videos (https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/videos)
+
+
+
 
