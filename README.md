@@ -2,6 +2,8 @@
 
 This repository is created to share the how the COVID19 Awareness was created and references materials used.
 
+**Link to chatbot**: m.me/100155831611493
+
 ## Reports and Documents from Nepal Government
 **Epidemiology and Disease Control Department**,Division of Health Services 
 
