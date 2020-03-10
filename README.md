@@ -29,7 +29,7 @@ This repository is created to share the how the COVID19 Awareness was created an
 
 ## Open Data access
 - **China National Center for Bioinformatics** 
-    https://www.elsevier.com/connect/coronavirus-information-center 
+    https://bigd.big.ac.cn/ncov?lang=en&fbclid=IwAR3UG9aB0oDFmKMFNQx9dx1PBhhrqIGbFx0e6s39f7KbgPLeDb5W5aMfnTE 
     You can download genomic sequeces, use online tools (AI) and publications 
 
 - **Kaggle COVID-19 Dataset from Korea**
