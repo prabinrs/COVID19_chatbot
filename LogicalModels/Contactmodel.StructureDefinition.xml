@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="http://example.org/fhir/StructureDefinition/contactModel" />
+  <name value="Contactmodel" />
+  <status value="draft" />
+  <fhirVersion value="4.0.1" />
+  <kind value="logical" />
+  <abstract value="false" />
+  <type value="http://example.org/fhir/StructureDefinition/contactModel" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element" />
+  <derivation value="specialization" />
+  <differential>
+    <element id="contactModel">
+      <path value="contactModel" />
+      <short value="Contactmodel" />
+      <definition value="Defines Contact Tracing for Infectious diseases" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Element" />
+      </type>
+      <mustSupport value="false" />
+    </element>
+    <element id="contactModel.gen1">
+      <path value="contactModel.gen1" />
+      <label value="Generation 1" />
+      <short value="Inital Patient" />
+      <definition value="The Patient who transmits the disease to others" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
+      </type>
+    </element>
+    <element id="contactModel.gen2">
+      <path value="contactModel.gen2" />
+      <short value="Seconary Patient" />
+      <definition value="Patient who got infection from inital patient." />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient" />
+      </type>
+    </element>
+    <element id="contactModel.Placevisited">
+      <path value="contactModel.Placevisited" />
+      <short value="Places visited by Inital Case" />
+      <definition value="Places visited by Initial case in given time frame." />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="BackboneElement" />
+      </type>
+    </element>
+    <element id="contactModel.Placevisited.Places">
+      <path value="contactModel.Placevisited.Places" />
+      <short value="Details of the Place" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Address" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Address" />
+      </type>
+    </element>
+    <element id="contactModel.Placevisited.Dateofvisit">
+      <path value="contactModel.Placevisited.Dateofvisit" />
+      <short value="Date of Visit" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="date" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/date" />
+      </type>
+    </element>
+    <element id="contactModel.Placevisited.Timeofvisit">
+      <path value="contactModel.Placevisited.Timeofvisit" />
+      <short value="Time of Visit" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="time" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/time" />
+      </type>
+    </element>
+    <element id="contactModel.Placevisited.Geolocation">
+      <path value="contactModel.Placevisited.Geolocation" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Extension" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/geolocation" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>
